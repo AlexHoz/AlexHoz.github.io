@@ -20,6 +20,8 @@ request.onload = function() {
   loadProd(product, 'task_6_name','task_6');
   Main.innerHTML+= '<hr style="width: 80%;">';
   loadProd(product, 'task_7_name','task_7');
+  Main.innerHTML+= '<hr style="width: 80%;">';
+  loadProd(product, 'task_8_name','task_8');
 }
 
 
@@ -42,7 +44,7 @@ function loadProd(jsonObj, name, nameCategory) {
     
   }
   if(product.length == 0){
-    htmlStr += '<p style="text-align:  center; font-size:60px; padding: 50px;">Упс... Кажется товар отсутвует</p>';
+    htmlStr += '<p style="text-align:  center; font-size:60px; padding: 50px;">Упс... Кажется товары отсутвуют</p>';
   }
   htmlStr += '</div>'
   Main.innerHTML+= htmlStr;
