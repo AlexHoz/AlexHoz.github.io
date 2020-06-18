@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/*Настройки*/
+#SettingsWindow{
+  width: 140px;
+}
+#Settings>div{
+  padding: 2px;
+}
+
+#Size{
+  width: 30px;
+}
+
+#ScoreX, #ScoreY{
+  width: 30px;
+  text-align: center;
+}
+
+/*Игровое поле*/
+.block{
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+.cell {
+  box-sizing: border-box;
+  background-color: bisque;
+  border: 2px solid black;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.cell:hover {
+  border-color: rgb(51, 255, 0);
+}
+.player {
+  background-image: url('img/player.png');
+  text-align: center;
+}
+.ai {
+  background-image: url('img/ai.png');
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+.navbar{ 
+    background:#3c5aff;
+}
+
+.nav-link , .navbar-brand{ 
+    color: #aad2ff; 
+    cursor: pointer;
+}
+
+.nav-link{
+     margin-right: 1em !important;
+    }
+
+.nav-link:hover{ 
+    background: #aad2ff; 
+    color: #3c5aff; 
+}
+
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+
+.navbar-toggler{  
+    background:#3c5aff !important;
+}
+
+.blog{
+    margin: 4em 0;
+    position: center; 
+}
+.blog h1{
+    color:#3c5aff;
+    margin: 2em; 
+}
+.blog .card{
+    box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+    width: 100%;
+    height: 12em;
+}
+.blog .card-title{
+    color:#3c5aff;
+     
+}
+.blog .card-body{
+    padding: 1em;
+}

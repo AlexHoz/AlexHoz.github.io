@@ -60,13 +60,29 @@
         }
       ],
       "task_5": [
-
+        {
+          "name": "Сайт с bootsrap",
+          "img": "img/ProjectPreview/task5(0).png",
+          "price": "",
+          "url": "task/task5(0)/index.html"
+        },
+        {
+          "name": "и ещё один сайт с bootsrap",
+          "img": "img/ProjectPreview/task5(1).png",
+          "price": "",
+          "url": "task/task5(1)/index.html"
+        }
       ],
       "task_6": [
-        
+       
       ],
       "task_7": [
-        
+        {
+          "name": "Крестики-Нолики",
+          "img": "img/ProjectPreview/task7.png",
+          "price": "",
+          "url": "task/tic-tac-toe/index.html"
+        }
       ],
       "task_8": [
         

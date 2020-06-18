@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Крестики-нолики на javascript</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+  <div id="SettingsWindow">
+    <form id="Settings">
+      <div>Настройки:</div>
+      <div for="Size">Размер: <input id="Size" type="number" value="3" size="2"/></div>
+      <div for="AI">Включить AI: <input id="AI" type="checkbox" checked/></div>
+    </form>
+    <br>
+
+    <div id="Button">
+      <button onclick="startGame()">Старт</button>
+      <input type="reset" form="Settings"> 
+    </div>
+    <br>
+    
+    <div id="Score">
+      Счёт: <input id="ScoreX" type="text" value="0" readonly/> : <input id="ScoreY" type="text" value="0" readonly/>
+    </div>
+  </div>
+  <div id="Game"></div>
+</body>
+</html>
