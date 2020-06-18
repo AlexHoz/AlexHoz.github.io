@@ -15,9 +15,16 @@ function loadProd(jsonObj, name) {
   var product = jsonObj[name];
       
   for (var i = 0; i < product.length; i++) {
-    let htmlStr = '<div class="block"><div class="desP"><img id="desPImg"';
-    htmlStr += 'src='+product[i].img+'></img>';
-    htmlStr += '<p>'+product[i].name+'</p></div><div class="buttonP"><button class="" type="button"><a href="">Получить</a></button></div> </div>';
+    let htmlStr='';
+    htmlStr += '<div class="block">';
+    htmlStr += '<div class="desP">';
+    htmlStr += '<img id="desPImg" src='+product[i].img+'></img>';
+    htmlStr += '<p>'+product[i].name+'</p>';
+    htmlStr += '</div><div class="buttonP">';
+    htmlStr += '<button class="" type="button">';
+    htmlStr += '<a href="">Получить</a>';
+    htmlStr += '</button>';
+    htmlStr += '</div> </div>';
     Main.innerHTML+= htmlStr;
   }
 }
