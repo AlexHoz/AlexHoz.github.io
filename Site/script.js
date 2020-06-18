@@ -8,6 +8,10 @@ request.send();
 request.onload = function() {
   var product = request.response;
   loadProd(product, 'task_1_name','task_1');
+  Main.innerHTML+= '<hr style="width: 80%;">';
+  loadProd(product, 'task_2_name','task_2');
+  Main.innerHTML+= '<hr style="width: 80%;">';
+  loadProd(product, 'task_3_name','task_3');
 }
 
 
