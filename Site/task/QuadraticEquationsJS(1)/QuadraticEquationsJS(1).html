@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="window">
+            <p class="elem"> Решалка квадратных уровнений на JS</p>
+            <form class="elem" name="square" action="javascript:square_equation()" style="padding: 20px;">
+              <input name="square_a" type="text" value="1" size="4"> x&sup2;
+              + <input name="square_b" type="text" value="1" size="4"> x
+              + <input name="square_c" type="text" value="1" size="4">
+            <input type="submit" value="Ввод">
+            </form>
+            <span class="elem" id="square_sol"></span>
+        </div>
+
+        <script language="javascript">
+            function square_equation() {
+              var a = document.square.square_a.value;
+              var b = document.square.square_b.value;
+              var c = document.square.square_c.value;
+              var sol = document.getElementById("square_sol");
+            
+              var d = b * b - 4 * a * c;
+              if ( d < 0 ) {
+                string = "Корни уровнения:<br>x<sub>1</sub> = (";
+                string += - b / ( 2 * a );
+                string += ", ";
+                string += Math.sqrt( -d ) / ( 2 * a );
+                string += "),<br>x<sub>2</sub> = (";
+                string += - b / ( 2 * a);
+                string += ",";
+                string += - Math.sqrt( -d ) / ( 2 * a );
+                string += ").";
+              } else {
+                  if ( d == 0 ) {
+                    string = "Корни уровнения:<br>x<sub>1</sub> = x<sub>2</sub> = ";
+                    string += -b / ( 2 * a );
+                    string += ".";
+                  } else {
+                    string = "Корни уровнения::<br>x<sub>1</sub> = ";
+                    string += -b / ( 2 * a ) - Math.sqrt( d ) / ( 2 * a );
+                    string += ", x<sub>2</sub> = ";
+                    string += -b / ( 2 * a ) + Math.sqrt( d ) / ( 2 * a );
+                    string += ".";
+                  }
+              }
+              sol.innerHTML = string;
+            }
+            </script>
+    </body>
+</html>

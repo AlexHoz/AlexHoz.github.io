@@ -21,29 +21,29 @@
     "task_2": [
         {
           "name": "JS Решалка кв. уравнений 1",
-          "img": "",
+          "img": "img/ProjectPreview/task2(0).png",
           "price": "",
-          "url": ""
+          "url": "task/QuadraticEquationsJS(0)/QuadraticEquationsJS(0).html"
         },
         {
-          "name": "",
-          "img": "",
+          "name": "JS Решалка кв. уравнений 2",
+          "img": "img/ProjectPreview/task2(1).png",
           "price": "",
-          "url": ""
+          "url": "task/QuadraticEquationsJS(1)/QuadraticEquationsJS(1).html"
         },
         {
-          "name": "",
-          "img": "",
+          "name": "JS Решалка кв. уравнений 3",
+          "img": "img/ProjectPreview/task2(2).png",
           "price": "",
-          "url": ""
+          "url": "task/QuadraticEquationsJS(2)/QuadraticEquationsJS(2).html"
         }
       ],
       "task_3": [
         {
           "name": "Модуль 'Hello world'",
-          "img": "",
+          "img": "img/ProjectPreview/HelloWorld.png",
           "price": "",
-          "url": ""
+          "url": "task/HelloWorld.py"
         }
       ]
   }
