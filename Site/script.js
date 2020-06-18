@@ -1,5 +1,5 @@
 let Main = document.getElementById('Main');
-let requestURL = 'https://alexhoz.github.io/products.json';
+let requestURL = 'https://alexhoz.github.io/Site/JSON/products.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
