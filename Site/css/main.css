@@ -1,4 +1,8 @@
 /*--------------------------------------------Main*/
+#Main{
+    display: flex;
+    flex-flow: column wrap;
+}
 .block{
     text-align: center;
     margin: 20px;
