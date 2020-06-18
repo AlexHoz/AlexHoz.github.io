@@ -49,19 +49,3 @@ function loadProd(jsonObj, name, nameCategory) {
   htmlStr += '</div>'
   Main.innerHTML+= htmlStr;
 }
-
-//request.onload();
-/*
-        
-            
-            <div class="block">
-                <div class="desP">
-                    <img id="desPImg" src="img/ProjectPreview/task1(0).png" alt="task1"></img>
-                    <p>Решалка кв. уравнений (для консоли)</p>
-                </div>
-                <div class="buttonP">
-                    <button class="" type="button"><a href="">Получить</a></button>
-                </div>
-            </div>
-        </div>
-*/

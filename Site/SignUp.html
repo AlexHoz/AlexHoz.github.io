@@ -4,12 +4,11 @@
   <meta charset="utf-8" />
   <title>Регистрация</title>
   <link rel="stylesheet" href="css/SingUp.css" />
+  <link rel="stylesheet" href="css/Home.css"/>
 </head>
 
 <body>
-    <header class="header">
-        
-    </header>
+  <button style="width: 150px;" class="logInOut" type="button"><a href="Home.html">Вернуться назад</a></button>
 
     <main>
         <form action="action_page.php">
@@ -28,11 +27,11 @@
               <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
               <hr>
               
-              <button type="submit" class="registerbtn">Регистрация</button>
+              <button type="button" class="registerbtn" onclick = "alert('Упс... Что-то пошло не так, повторите попытку позже')">Регистрация</button>
             </div>
           
             <div class="container signin">
-              <p>Уже есть аккаунт? <a href="#">Sign in</a>.</p>
+              <p>Уже есть аккаунт? <a href="SignIn.html">Sign in</a>.</p>
             </div>
           </form> 
     </main>
