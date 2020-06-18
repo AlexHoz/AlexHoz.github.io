@@ -2,6 +2,11 @@
     "task_1_name": "Решалки квадратных уравнений",
     "task_2_name": "Решалки квадратных уравнений на JS",
     "task_3_name": "Модули для Sublime Text 3",
+    "task_4_name": "Сайты",
+    "task_5_name": "Сайты с использованием framework'ов",
+    "task_6_name": "Настройка локального сервера",
+    "task_7_name": "Игра 'Крестики-Нолики'",
+    "task_8_name": "Игра 'Динозаврик'",
 
 
     "task_1": [
@@ -45,5 +50,22 @@
           "price": "",
           "url": "task/HelloWorld.py"
         }
+      ],
+      "task_4": [
+        {
+          "name": "Наш прекрасный сайт",
+          "img": "img/ProjectPreview/task4.png",
+          "price": "",
+          "url": ""
+        }
+      ],
+      "task_5": [
+
+      ],
+      "task_6": [
+        
+      ],
+      "task_7": [
+        
       ]
   }

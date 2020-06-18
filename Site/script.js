@@ -12,6 +12,14 @@ request.onload = function() {
   loadProd(product, 'task_2_name','task_2');
   Main.innerHTML+= '<hr style="width: 80%;">';
   loadProd(product, 'task_3_name','task_3');
+  Main.innerHTML+= '<hr style="width: 80%;">';
+  loadProd(product, 'task_4_name','task_4');
+  Main.innerHTML+= '<hr style="width: 80%;">';
+  loadProd(product, 'task_5_name','task_5');
+  Main.innerHTML+= '<hr style="width: 80%;">';
+  loadProd(product, 'task_6_name','task_6');
+  Main.innerHTML+= '<hr style="width: 80%;">';
+  loadProd(product, 'task_7_name','task_7');
 }
 
 
@@ -21,7 +29,6 @@ function loadProd(jsonObj, name, nameCategory) {
   htmlStr += '<p class="nameCategory">' + jsonObj[name] +'</p>';
   htmlStr += '<div class="Category">';
   for (var i = 0; i < product.length; i++) {
-    
     htmlStr += '<div class="block">';
     htmlStr += '<div class="desP">';
     htmlStr += '<img id="desPImg" src='+product[i].img+'></img>';
@@ -33,6 +40,9 @@ function loadProd(jsonObj, name, nameCategory) {
     htmlStr += '</button>';
     htmlStr += '</div> </div>';
     
+  }
+  if(product.length == 0){
+    htmlStr += '<p style="text-align:  center; font-size:60px; padding: 50px;">Упс... Кажется товар отсутвует</p>';
   }
   htmlStr += '</div>'
   Main.innerHTML+= htmlStr;
