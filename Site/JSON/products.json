@@ -9,13 +9,13 @@
         "name": "Решалка кв. уравнений (для консоли)",
         "img": "img/ProjectPreview/task1(0).png",
         "price": "",
-        "url": ""
+        "url": "./Site/task/Quadratic equations(0).py"
       },
       {
         "name": "Решалка кв. уравнений",
         "img": "img/ProjectPreview/task1(1).png",
         "price": "",
-        "url": ""
+        "url": "./Site/task/Quadratic equations(1).py"
       }
     ],
     "task_2": [

@@ -26,6 +26,7 @@ body{
 }
 
 hr {
+    
     border: none; /* Убираем границу */
     background-color: rgb(125, 125, 125); /* Цвет линии */
     color: rgb(125, 125, 125); /* Цвет линии для IE6-7 */
