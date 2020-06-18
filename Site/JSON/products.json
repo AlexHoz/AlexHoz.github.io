@@ -74,7 +74,12 @@
         }
       ],
       "task_6": [
-       
+       {
+        "name": "Руководсво по настройке сервера Apache",
+        "img": "img/ProjectPreview/task6.png",
+        "price": "",
+        "url": "task/task6.html"
+      }
       ],
       "task_7": [
         {
