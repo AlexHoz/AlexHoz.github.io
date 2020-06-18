@@ -29,7 +29,7 @@ function loadProd(jsonObj, name, nameCategory) {
     htmlStr += '</div>';
     htmlStr += '<div class="buttonP">';
     htmlStr += '<button class="" type="button">';
-    htmlStr += '<a href="">Получить</a>';
+    htmlStr += '<a href="'+ product[i].url +'">Получить</a>';
     htmlStr += '</button>';
     htmlStr += '</div> </div>';
     
