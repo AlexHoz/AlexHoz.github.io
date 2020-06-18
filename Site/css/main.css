@@ -1,9 +1,16 @@
 /*--------------------------------------------Main*/
 #Main{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    text-align: center;
 }
-.block{
+.Category{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block{ 
     text-align: center;
     margin: 20px;
     width: 300px;
