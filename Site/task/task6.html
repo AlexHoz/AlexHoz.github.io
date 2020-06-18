@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Настройка Apache</title>
+  <link rel="stylesheet" href="../css/Home.css"/>
+</head>
+
+<body>
+    <button style="width: 100px;" class="logInOut" type="button"><a href="../Home.html">Вернуться назад</a></button>
+
+    <main style="text-align: left; padding: 10px;" id = "Main">
+        <div>
+            <H1>1) Скачиваем необходимые файлы</H1>
+            <p style="padding-left: 15px;">1) PHP <a style="color: rgb(4, 0, 212);" href="https://windows.php.net/download/">windows.php.net/download/</a> (Обязательно Thread Safe)</p>
+            <p style="padding-left: 15px;">2) Apache <a style="color: rgb(4, 0, 212);" href="https://www.apachelounge.com/download/httpd-2.4.43-win64-VS16.zip">www.apachelounge.com/download/httpd-2.4.43-win64-VS16.zip</a></p>
+        </div>
+        <div>
+            <H1>2) Запускаем сервер Apache</H1>
+            <p style="padding-left: 15px;">1) Распаковываем Apache в папку Apache24 на диске C.</p>
+            <p style="padding-left: 15px;">2) Запускаем его как службу в Windows. Для этого переходит в директорию bin, папки Apache-а, там запускаем cmd от имени администратора и выполняем команду  httpd.exe -k install</p>
+            <p style="padding-left: 15px;">3) Если все прошло нормально, то по адресу <a style="color: rgb(4, 0, 212);" href="http://127.0.0.1/">127.0.0.1</a> должна появиться страничка, на которой написано "It works!"</p>
+            <img src="../img/task6(1).png" alt="task6"> </img>
+        </div>
+        <div>
+            <H1>3) Соединяем PHP и Apache</H1>
+            <p style="padding-left: 15px;">1) Переходим в C:\Apache24\conf\httpd.conf. и в конец файла прописываем:</p>
+            <p style="padding-left: 30px;">AddHandler application/x-httpd-php .php</p>
+            <p style="padding-left: 30px;">AddType application/x-httpd-php .php .html</p>
+            <p style="padding-left: 30px;">LoadModule php7_module "путь к папке php php7apache2_4.dll"</p>
+            <p style="padding-left: 30px;">PHPIniDir "путь к папке php"</p>
+
+            <p style="padding-left: 15px;">2) В папке C:\Apache24\htdocs\ создаем файл phpinfo.php со следующим содержимым: </p>
+            <p style="padding-left: 30px;"> < ?php </p>
+            <p style="padding-left: 30px;"> phpinfo();></p>
+
+                
+            <p style="padding-left: 15px;">3) После этого по адресу <a style="color: rgb(4, 0, 212);" href="http://127.0.0.1/phpinfo.php">127.0.0.1/phpinfo.php</a> должна появиться Web-страничка со сведениями о сборке PHP</p>
+            <img src="../img/task6(2).png" alt="task6"> </img>
+        </div>
+    </main>
+    <footer>
+        <div class="footerTop">
+            <img id = "stackoverflow" src="../img/stackoverflow.png" alt="stackoverflow"> </img>
+            <div>Все предоставленные  программы были написаны лично нашей командой при помощи Stack Overflow и танцев с бубном.</div>
+            <img id = "paysystems" src="../img/pay-systems.png" alt="ay-systems"> </img>
+        </div>
+        <div class="footerDawn">
+            <div>CSUSTORE.RU © 2020-2020</div>
+        </div>
+    </footer>
+</body>
+</html>
