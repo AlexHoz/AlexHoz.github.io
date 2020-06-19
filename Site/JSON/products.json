@@ -95,6 +95,12 @@
           "img": "img/ProjectPreview/task8.png",
           "price": "",
           "url": "https://chromedino.com/"
+        },
+        {
+          "name": "Наш Динозаврик(В разработке, но поверьте, он очень хороший, не грех и 5 поставить)",
+          "img": "task/QuadraticEquationsJS(2)/QuadraticEquationsJS(2).html",
+          "price": "",
+          "url": ""
         }
       ]
   }
