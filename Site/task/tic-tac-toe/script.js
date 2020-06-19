@@ -65,7 +65,6 @@ function checkEnd() {
       scorePlayerY = 0;
     }
   }
-  if(score == Size*Size) return'draw';
 
   //Ходим по диагональным строкам
   for (let x = 0; x < Size; x++) { 
@@ -78,6 +77,7 @@ function checkEnd() {
   //Проверка на победу
   if(scoreAiX == Size || scoreAiY == Size) return 'ai';
   if(scorePlayerX == Size || scorePlayerY == Size) return 'player';
+  if(score == Size*Size) return'draw';
   //Если победителя нет, возвращаем none
   return 'none'
 }
