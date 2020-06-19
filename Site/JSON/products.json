@@ -48,7 +48,7 @@
           "name": "Модуль 'Hello world'",
           "img": "img/ProjectPreview/HelloWorld.png",
           "price": "",
-          "url": "task/HelloWorld.py"
+          "url": "task/HelloWorld.zip"
         }
       ],
       "task_4": [
@@ -90,6 +90,11 @@
         }
       ],
       "task_8": [
-        
+        {
+          "name": "Динозаврик(не такой хороший как наш, но тоже сойдёт)",
+          "img": "img/ProjectPreview/task8.png",
+          "price": "",
+          "url": "https://chromedino.com/"
+        }
       ]
   }
