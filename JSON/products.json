@@ -1,0 +1,106 @@
+{
+    "task_1_name": "Решалки квадратных уравнений",
+    "task_2_name": "Решалки квадратных уравнений на JS",
+    "task_3_name": "Модули для Sublime Text 3",
+    "task_4_name": "Сайты",
+    "task_5_name": "Сайты с использованием framework'ов",
+    "task_6_name": "Настройка локального сервера",
+    "task_7_name": "Игра 'Крестики-Нолики'",
+    "task_8_name": "Игра 'Динозаврик'",
+
+
+    "task_1": [
+      {
+        "name": "Решалка кв. уравнений (для консоли)",
+        "img": "img/ProjectPreview/task1(0).png",
+        "price": "",
+        "url": "./task/QuadraticEquations(0).py"
+      },
+      {
+        "name": "Решалка кв. уравнений",
+        "img": "img/ProjectPreview/task1(1).png",
+        "price": "",
+        "url": "./task/QuadraticEquations(1).py"
+      }
+    ],
+    "task_2": [
+        {
+          "name": "JS Решалка кв. уравнений 1",
+          "img": "img/ProjectPreview/task2(0).png",
+          "price": "",
+          "url": "task/QuadraticEquationsJS(0)/QuadraticEquationsJS(0).html"
+        },
+        {
+          "name": "JS Решалка кв. уравнений 2",
+          "img": "img/ProjectPreview/task2(1).png",
+          "price": "",
+          "url": "task/QuadraticEquationsJS(1)/QuadraticEquationsJS(1).html"
+        },
+        {
+          "name": "JS Решалка кв. уравнений 3",
+          "img": "img/ProjectPreview/task2(2).png",
+          "price": "",
+          "url": "task/QuadraticEquationsJS(2)/QuadraticEquationsJS(2).html"
+        }
+      ],
+      "task_3": [
+        {
+          "name": "Модуль 'Hello world'",
+          "img": "img/ProjectPreview/HelloWorld.png",
+          "price": "",
+          "url": "task/HelloWorld.zip"
+        }
+      ],
+      "task_4": [
+        {
+          "name": "Наш прекрасный сайт",
+          "img": "img/ProjectPreview/task4.png",
+          "price": "",
+          "url": ""
+        }
+      ],
+      "task_5": [
+        {
+          "name": "Сайт с bootsrap",
+          "img": "img/ProjectPreview/task5(0).png",
+          "price": "",
+          "url": "task/task5(0)/index.html"
+        },
+        {
+          "name": "и ещё один сайт с bootsrap",
+          "img": "img/ProjectPreview/task5(1).png",
+          "price": "",
+          "url": "task/task5(1)/index.html"
+        }
+      ],
+      "task_6": [
+       {
+        "name": "Руководсво по настройке сервера Apache",
+        "img": "img/ProjectPreview/task6.png",
+        "price": "",
+        "url": "task/task6.html"
+      }
+      ],
+      "task_7": [
+        {
+          "name": "Крестики-Нолики",
+          "img": "img/ProjectPreview/task7.png",
+          "price": "",
+          "url": "task/tic-tac-toe/index.html"
+        }
+      ],
+      "task_8": [
+        {
+          "name": "Динозаврик(не такой хороший как наш, но тоже сойдёт)",
+          "img": "img/ProjectPreview/task8.png",
+          "price": "",
+          "url": "https://chromedino.com/"
+        },
+        {
+          "name": "Наш Динозаврик(В разработке, но поверьте, он очень хороший, не грех и 5 поставить)",
+          "img": "img/ProjectPreview/task2(2).png",
+          "price": "",
+          "url": ""
+        }
+      ]
+  }

@@ -1,0 +1,39 @@
+/*--------------------------------------------Main*/
+#Main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight:bold 
+}
+.nameCategory{
+    font-family: Noto Sans, sans-serif;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.Category{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block{ 
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    border: 4px double rgb(0, 0, 0);
+}
+
+.desP{
+    height: 90%;
+}
+#desPImg{
+    padding-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.buttonP{
+    
+}
